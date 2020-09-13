@@ -1,4 +1,4 @@
-{% set version = "1.4.4" %}
+{% set version = "1.4.5" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/shape_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/shape/shape_{{ version }}.tar.gz
-  sha256: f4cb1b7d7c84cf08d2fa97f712ea7eb53ed5fa16e5c7293b820bceabea984d41
+  sha256: 094a79b8f42226189227fd7af71868e42106caa25a4d7f80a26977e8bc84189f
 
 build:
   noarch: generic
-  number: 1003
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -38,7 +38,7 @@ about:
   license: GPL (>= 3)
   summary: Functions for plotting graphical shapes such as ellipses, circles, cylinders, arrows,
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
