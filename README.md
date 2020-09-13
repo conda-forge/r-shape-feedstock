@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=shape
 
 Package license: GPL (>= 3)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Functions for plotting graphical shapes such as ellipses, circles, cylinders, arrows,
 
