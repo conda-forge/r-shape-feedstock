@@ -1,4 +1,4 @@
-{% set version = "1.4.5" %}
+{% set version = "1.4.6" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/shape_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/shape/shape_{{ version }}.tar.gz
-  sha256: 094a79b8f42226189227fd7af71868e42106caa25a4d7f80a26977e8bc84189f
+  sha256: b9103e5ed05c223c8147dbe3b87a0d73184697343634a353a2ae722f7ace0b7b
 
 build:
   noarch: generic
