@@ -1,11 +1,11 @@
-About r-shape
-=============
+About r-shape-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shape-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=shape
 
 Package license: GPL (>= 3)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-shape-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions for plotting graphical shapes such as ellipses, circles, cylinders, arrows,
 
